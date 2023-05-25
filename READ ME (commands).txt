@@ -1,0 +1,8 @@
+git init - This command makes the directory a Git repository.
+git status - This command is used to check the status of the repository.
+git --version - This command is used to check the version of the Git installed on our system.
+git add . - This command adds all the files of a repository to the staging area.
+git commit -m “message” - This command is used to commit all the changes. It creates a “save point,” i.e., we can revert to the old savepoint when needed.
+git log - This command is used to view the history of commits of a repository.
+git config --global user.name “Name” - This command is used to configure or set the user name.
+git config --global user.email “email id” - This command is used to set email
