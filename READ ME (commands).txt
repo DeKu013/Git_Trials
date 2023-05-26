@@ -17,5 +17,6 @@ git checkout <filename> - implements the reset to the file
 	*git checkout . - to revert all files of a particular repository to an old commit.
 git add -A - stages all the file present in the directory.
 git add -u - stages modified and deleted files, not new.
+git clone <Github repository link> - clones the repository in Github in your local repository.
 
 *Use SSH sites when using GIT Bash
