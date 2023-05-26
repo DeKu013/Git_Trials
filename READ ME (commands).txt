@@ -19,6 +19,12 @@ git add -A - stages all the file present in the directory.
 git add -u - stages modified and deleted files, not new.
 git clone <Github repository link> - clones the repository in Github in your local repository.
 	*git clone <Github repository link> . - clones all the repositories.
+git branch <branch_name> - creates a new branch with the given branch name.
+git branch - shows all the available branches.
+git checkout <branch_name> - switches master branch to the specified branch.
+git push origin <branch_name> - Pushes all the changes of the specified branch to the local repository.
+git merge <branch_name> - Merges all the content of the specified branch with the master branch.
+
 
 *Use SSH sites when using GIT Bash
 *type 'ls -la' to get all the files and directories present in the current directory 
