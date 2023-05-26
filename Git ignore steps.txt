@@ -1,0 +1,13 @@
+Steps for ignoring files in Git:
+
+1 - Open the local repository and start Git Bash over there.
+2 - Execute the command: touch .gitignore
+3 - Now open the '.gitignore' file in Notepad by: 'notepad .gitignore'
+4 - Specify files and folders that are not to be tracked.
+	Data can be entered in the following ways:
+	 - <filename>.<extension> - File with the particular filename and extension won't be tracked.
+	 - *.<extension> - Any file with that particular extension will not be tracked.
+	 - <FolderName>/ - All the files and folders inside that particular folder will be ignored.
+	*enter the data in a list format.
+
+*git rm --cached <Filename> - untracks the tracked file.
