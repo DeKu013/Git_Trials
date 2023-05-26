@@ -24,6 +24,8 @@ git branch - shows all the available branches.
 git checkout <branch_name> - switches master branch to the specified branch.
 git push origin <branch_name> - Pushes all the changes of the specified branch to the local repository.
 git merge <branch_name> - Merges all the content of the specified branch with the master branch.
+git branch -d <branch_name> - deletes the specified branch from the local repository.
+git push origin --delete <branch_name> - deletes the specified branch from the remote repository.
 
 
 *Use SSH sites when using GIT Bash
