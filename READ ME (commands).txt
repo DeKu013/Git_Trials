@@ -8,7 +8,7 @@ git log - This command is used to view the history of commits of a repository.
 git config --global user.name “Name” - This command is used to configure or set the user name.
 git config --global user.email “email id” - This command is used to set email
 git remote add <HTTPS/SSH key site> - Adds the remote repository 
-git push -u origin master - Pushes all the content of local repository to remote repository.
+git push -u origin main - Pushes all the content of local repository to remote repository.
 git pull origin master - Fetches/downloads content from a remote repository and immediately updates the local repository to match that content.
 git diff <filename> - shows the differences made to the file not committed.
 git diff --staged <filename> - checks the changes of staged file.
